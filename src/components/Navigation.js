@@ -4,7 +4,8 @@ function Navigation() {
   return (
     <nav className="py-3">
       <div className="flex justify-between">
-        <img className="w-[35%] lg:w-[12%]" src={Logo} alt="Logo"/>
+      <a href="#home">
+        <img className="w-[35%] lg:w-[12%]" src={Logo} alt="Logo"/></a>
         <div className="">
           <img className="w-[80%] lg:w-[35%] float-right items-center" src={Offer1} alt="Offer"/>
         </div>
