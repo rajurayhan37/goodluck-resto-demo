@@ -6,7 +6,7 @@ import MenuItem from "./MenuItem";
 
 function Menu() {
   return (
-    <section className="pt-2 px-3 sm:px-6 md:px-14 lg:px-16">
+    <section id="home" className="pt-2 px-3 sm:px-6 md:px-14 lg:px-16">
       <div className="py-8 sm:text-center">
         <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
           Our Soup Items
